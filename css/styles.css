@@ -1,0 +1,197 @@
+*,
+*::before,
+*::after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html{
+font-size: 16px;
+scroll-behavior: smooth;
+}
+
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/smooth-white-wave-background_52683-55288.jpg?t=st=1729889846~exp=1729893446~hmac=c1d6d8357c13b47a90598e10d5cd9a21c4af95f1d3eba5197664f49cec967816&w=1060");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header-img , img{
+  object-fit: cover;
+  height: 3rem;
+  border-radius: 10px 14px;
+}
+
+.container-custom {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem;
+  align-items: baseline;
+}
+
+
+#header {
+  display: flex;
+   gap: 1rem;
+   align-items: center;
+}
+
+#nav-bar ul {
+  display: flex;
+  margin: 15px auto;
+
+  list-style: none;
+}
+
+#nav-bar{
+   position: fixed; 
+            top: 0; 
+            right: 0;
+
+}
+
+li  {
+ padding: 1rem 5.5rem;
+ cursor: pointer;
+ 
+}
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+}
+ #form{
+ display: block;
+
+  
+}
+
+.container {
+   width: 450px;
+   margin : 3.5rem auto 0;
+   padding: 10px 14px 5px 14px;
+   text-transform: capitalize;
+}
+
+input {
+  display: block;
+    padding: 5px 10px;
+    margin: 10px auto;
+}
+
+.btn {
+ width:150px;
+ background-color: #010101;
+ color:#ffff;
+}
+
+#email {
+  width: 300px;
+  height: 40px;
+   background-color: #ffaa;
+   border: none;
+}
+
+.video-container {
+    margin: 1rem -5rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr 1fr 1fr;
+ 
+}
+
+
+
+.grid-item {
+   display: flex;
+   padding: 2rem 0;
+}
+
+.item-2 , .item-3 {
+ margin: 0 auto;
+}
+
+.item-1  {
+  margin: 1px 1px 1px 18rem;
+}
+
+.card {
+      display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 1.5rem;
+   margin-top: 1.5rem;
+   border-radius: 11px 14px;
+
+   background-color: rgba(0, 0, 0, .03);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.card-list{
+  list-style: none;
+   background-color: #ffaa;
+}
+
+.buy-button {
+  width: 190px;
+  height: 35px;
+  border-radius: 11px 14px;
+   background-color: #010101;
+   color: white;
+   border: none;
+   
+    margin: 3px 0 5px 50px;
+}
+
+
+
+.plan-name{
+  align-self: center;
+  margin: 10px 1px 0 1px;
+  text-transform: capitalize;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  align-items: baseline;
+  gap: 1rem;
+   
+}
+
+footer{
+ margin: 10px auto;
+}
+
+@media (max-width: 1024px){
+  .container-custom {
+    max-width: 1024px;
+
+  }
+}
